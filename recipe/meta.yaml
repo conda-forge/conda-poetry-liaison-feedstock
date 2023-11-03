@@ -1,5 +1,5 @@
 {% set name = "conda-poetry-liaison" %}
-{% set version = "0.1.1" %}
+{% set version = "0.1.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/conda_poetry_liaison-{{ version }}.tar.gz
-  sha256: 62c6843e45b5d23326e8c383fc625776aa84f4953e973d0e8d15130d1d550ec7
+  sha256: 79bdc4b5ad989bcf20cdcd01580cf6d1b9ae8d123ca0dc7ca39707e2b2e6ac46
 
 build:
   entry_points:
